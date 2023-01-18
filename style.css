@@ -1,0 +1,109 @@
+body {
+  font-family: cursive;
+  background-color: black;
+  background-image: url(./assets/image/image3.jpg);
+}
+
+p {
+  /* border: 2px solid rgb(255, 255, 255); */
+  color: #ffffff;
+  font-size: large;
+  font-family: serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  line-height: 30px;
+  background-color: #6f4e37;
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+  border-radius: 19px;
+}
+h1 {
+  color: rgba(231, 83, 38, 0.945);
+  font-size: 40px;
+}
+h3 {
+  color: azure;
+}
+h4,
+h5 {
+  color: #e3e6e9;
+}
+#idtable {
+  color: #f9fdff;
+}
+.listBienfait {
+  color: #eaebec;
+  /* border: 2px solid black; */
+  width: 20%;
+  margin: auto;
+}
+/* header css */
+a:hover {
+  color: orangered;
+}
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+ul > li {
+  width: 200px;
+  font-weight: 900;
+  display: inline-block;
+  font-size: x-large;
+  margin: 0 25px;
+  text-align: center;
+}
+
+.position {
+  /* border: 3px solid ; */
+  padding: 10px 10px;
+  margin: 20px 10px;
+  text-align: center;
+}
+/* home */
+.imgHome {
+  width: 70%;
+  height: 35%;
+  border-radius: 60px;
+}
+.resume {
+  /* border: 3px solid ; */
+  padding: 10px 10px;
+  margin: 20px 10px;
+  text-align: center;
+}
+table {
+  margin: auto;
+}
+th {
+  color: rgb(243, 217, 195);
+}
+form {
+  color: #ffffff;
+}
+input {
+  width: 20%;
+  height: 60%;
+  padding: 9px;
+  border-radius: 20px;
+  margin: 10px;
+}
+button {
+  padding: 10px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: orangered;
+  color: #ffffff;
+}
+h5 {
+  margin: 20px 10px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 50px;
+}

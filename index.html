@@ -4,32 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="headOne">
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li>contact</li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <!--HOME SECTION-->
-      <section>
+      <section class="position">
         <a name="home"></a>
-        <h1>café time</h1>
-        <img src="./assets/image/RXFO8803.JPG" alt="café" />
+        <h1>Coffee Time</h1>
+        <img
+          class="imgHome"
+          src="./assets/image/image1.jpg"
+          alt="café"
+          width="560"
+          height="315"
+        />
       </section>
       <!--ABOUT SECTION-->
-      <section>
+      <section class="position">
         <a name="about"></a>
-        <h1>about section</h1>
+        <h1>About section</h1>
         <p>
           Text description provided by the architects. A paragraph is made up of
           a lot of words.<br />
@@ -41,9 +48,9 @@
           provinces.
         </p>
         <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/vGlAgdSjmkE"
+          width="100%"
+          height="600"
+          src="https://www.youtube.com/embed/d4O6DQXYkh0"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -51,10 +58,10 @@
         ></iframe>
       </section>
       <!--WORK SECTION-->
-      <section>
+      <section class="position">
         <a name="work"></a>
-        <h1>work section</h1>
-        <h4>background</h4>
+        <h1>Work section</h1>
+        <h3>background</h3>
         <p>
           The long time zone of service station the architect set to design the
           Cafe located in this zone developed as a place for users to unwind
@@ -68,7 +75,7 @@
           understanding of the use of space.<br />
           Allowing users to spend more time in the area
         </p>
-        <h4>description</h4>
+        <h3>Description</h3>
         <p>
           le café infusé et le café expresso sont de bonnes sources de vitamine
           B2 pour la femme et des sources pour lhomme (les besoins en vitamine
@@ -80,17 +87,20 @@
           à la production dhormones et à la formation des globules rouges ;
         </p>
         <video width="=300px" height="300px" controls>
-          <source src="./assets/video/anime.mp4" type="video/mp4" />
+          <source
+            src="./assets/video/☕️ Caféine, théine et Café clop ! 🚬.mp4"
+            type="video/mp4"
+          />
         </video>
       </section>
       <!--RESUME SECTION-->
-      <section>
+      <section class="resume">
         <a name="resume"></a>
-        <h1>resume section</h1>
-        <h4>qaulité</h4>
-        <table border="1px">
+        <h1>Resume section</h1>
+        <h3>Qualité</h3>
+        <table border="1px" id="idtable">
           <tr>
-            <th>Cuivre</th>
+            <th >Cuivre</th>
             <th>Acide pantothénique</th>
             <th>Vitamine B2</th>
           </tr>
@@ -100,31 +110,33 @@
             <td>connue sous le nom de riboflavine</td>
           </tr>
         </table>
-
-        <ol>
-          <h4>liste bienfaits</h4>
+        <h3>Liste de bienfaits</h3>
+        <ol class="listBienfait">
           <li>Diabète de type 2</li>
           <li>Maladies cardiovasculaires</li>
           <li>Maladies du foie</li>
         </ol>
       </section>
       <!--CONTACT SECTION-->
-      <section>
-        <h1>contact section</h1>
+      <section class="position">
+        <a name="contact"></a>
+        <h1>Contact section</h1>
         <form>
           <label for="">User name</label><br />
-          <input type="text" /><br />
+          <input type="text"  placeholder="Type your name..."/><br />
           <label for="">Email</label><br />
-          <input type="email" /><br />
+          <input type="email" placeholder="Type your email" /><br />
           <label for="">Message</label><br />
           <textarea name="Message" id="" cols="30" rows="10"></textarea><br />
-          <input type="button" value="Send" />
+          <button type="button">Send</button>
         </form>
       </section>
     </main>
-    <footer>
-      <hr />
-      <h5>num telephone</h5>
+    <hr />
+    <footer >
+      <h5>all rights reserved</h5>
+      <h5>coffeeTime@gmail.com</h5>
+      <h5>coffeeTime</h5>
     </footer>
   </body>
 </html>
